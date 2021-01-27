@@ -1,0 +1,28 @@
+.section{
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Play', serif;
+
+  &--font--color--red{
+    color: #fff;
+
+    .section__title{
+      color: inherit;
+    }
+  }
+}
+
+
+.section__title{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292929;
+  position: relative;
+  z-index: 2;
+}  
+
